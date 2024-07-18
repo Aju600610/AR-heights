@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-custom {
+    background-color: rgb(137, 169, 3);
+}
+
+.ar_logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-custom .navbar-toggler-icon,
+.navbar-custom .nav-link {
+    color: white !important;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: 500px;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    padding: 20px;
+}
+
+h3, h4 {
+    color: #BAB86C; /* Same color as navbar */
+}
+
+.footer {
+    background-color: white;
+    padding: 20px 0;
+    color: rgb(137, 169, 3);
+}
+
+.footer .col {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.footer .col p {
+    color: black;
+}
+
+.footer img {
+    height: 40px;
+}
